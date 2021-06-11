@@ -15,27 +15,27 @@ rl.question('What is an activity you like doing? :)', (answer) => {
   rl.close();
 });
 
-readline.question('what do you lilsten to while doing that? ', (answer) =>{
+rl.question('what do you lilsten to while doing that? ', (answer) =>{
   console.log(`your answer is:${answer}`);
   rl.close();
 })
 
-readline.question('Which meal is your favourite (eg: dinner, brunch, etc.)',(answer)=>{
+rl.question('Which meal is your favourite (eg: dinner, brunch, etc.)',(answer)=>{
   console.log(`your answer is: ${answer}`);
   rl.close();
 })
 
-readline.question('What is your favourite thing to eat for that meal?',(answer)=>{
+rl.question('What is your favourite thing to eat for that meal?',(answer)=>{
   console.log(`your answer is ${answer}`);
   rl.close();
 })
 
-readline.question('Which sport is your absolute favourite?',(answer)=>{
+rl.question('Which sport is your absolute favourite?',(answer)=>{
   console.log(`you answer is: ${answer}`);
   rl.close();
 })
 
-readline.question('What is your superpower? In a few words, tell us what you are amazing at!', (answer)=>{
+rl.question('What is your superpower? In a few words, tell us what you are amazing at!', (answer)=>{
   console.log(`your answer is: ${answer}`);
   rl.close();
 })
